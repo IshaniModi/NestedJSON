@@ -1,0 +1,17 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "Upload the file and reading nested json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "json-file-validator": "0.0.4",
+    "multer": "^1.4.1"
+  }
+}
